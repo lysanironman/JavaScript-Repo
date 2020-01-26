@@ -23,7 +23,7 @@ function myFunction() {
 
   document.getElementById("res").innerHTML = total; 
   document.getElementById("a").innerHTML = n;
-  }
+}
 
 
 
