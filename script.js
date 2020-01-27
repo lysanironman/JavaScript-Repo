@@ -10,20 +10,10 @@ var ᚠ = 1,ᚢ = 2,ᚦ = 3,ᚨ = 4,ᚱ = 5,ᚲ = 6,ᚷ = 7,ᚹ = 8,
 ᛏ = 17,ᛒ = 18,ᛖ = 19,ᛗ = 20,ᛚ = 21,ᛜ = 22,ᛞ = 23,ᛟ = 24;
 var sumOfElderFuthark = (ᚠ+ᚢ+ᚦ+ᚨ+ᚱ+ᚲ+ᚷ+ᚹ+ᚺ+ᚾ+ᛁ+ᛃ+ᛇ+ᛈ+ᛉ+ᛊ+ᛏ+ᛒ+ᛖ+ᛗ+ᛚ+ᛜ+ᛞ+ᛟ)
 console.log(sumOfElderFuthark);
+var magusName = ᚠ+ᚢ+ᚷ+ᚠ+ᚢ+ᚱ+ᚠ+ᚢ+ᚲ
+console.log(magusName);
 
-console.log(ᚠ+ᚢ+ᚷ+ᚠ+ᚢ+ᚱ+ᚠ+ᚢ+ᚲ);
 
-const cap = (n, min, max) => Math.max(min, Math.min(n, max));
-const getNumValue = char => cap(char.charCodeAt(0) - 96, 1, 26);
-
-function myFunction() {
-  const str = document.getElementById("txt").value;
-  const total = str.split('').map(getNumValue).reduce((a, b) => a + b, 0)
-  const n = str.split('').map(v => `${v}(${getNumValue(v)})`).join(' + ');
-
-  document.getElementById("res").innerHTML = total; 
-  document.getElementById("a").innerHTML = n;
-}
 
 
 
